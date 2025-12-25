@@ -102,8 +102,7 @@ php artisan db:seed
 
 ### 3. Environment Configuration
 
-⚠️ **Security Note**
-Never commit `.env` files to version control. API keys must be kept private.
+
 
 #### backend-laravel/.env
 
@@ -116,7 +115,7 @@ APP_URL=http://localhost:8000
 DB_CONNECTION=sqlite
 DB_DATABASE=/absolute/path/to/database.sqlite
 
-OPENAI_API_KEY=your_openai_api_key_here
+
 
 
 #### article-processor/.env
@@ -124,8 +123,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 env
 PORT=3001
 LARAVEL_API_URL=http://localhost:8000
-OPENAI_API_KEY=your_openai_api_key_here
-GOOGLE_SEARCH_API_KEY=optional_google_search_api_key
+
 
 
 #### frontend-react/.env
