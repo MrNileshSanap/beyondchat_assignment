@@ -1,0 +1,47 @@
+
+# Environment variables (Secrets)
+
+.env
+.env.*
+!.env.example
+# PHP / Composer
+vendor/
+composer.lock
+
+# Node.js (Backend + Frontend)
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+
+
+# Laravel / PHP
+
+backend-laravel/vendor/
+backend-laravel/storage/logs/*
+backend-laravel/storage/framework/*
+backend-laravel/bootstrap/cache/*
+backend-laravel/.phpunit.result.cache
+
+# SQLite database (optional – ignore if generated locally)
+backend-laravel/database/*.sqlite
+
+
+# Frontend (Vite / React)
+
+frontend-react/node_modules/
+frontend-react/dist/
+frontend-react/.vite/
+
+# Build & Cache
+
+.cache/
+coverage/
+
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
